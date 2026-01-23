@@ -1,3 +1,4 @@
+// This program was used to test the servo motors
 #include <Servo.h>
 
 Servo myServo;
