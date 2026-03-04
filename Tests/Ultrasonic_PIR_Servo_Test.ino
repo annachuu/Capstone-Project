@@ -1,4 +1,5 @@
-// first attempt to combine sensors with servo motor and allow gradual feedback with closer proximity
+// This program is used to test the Ultrasonic, PIR, and SERVO Motors altogether
+// first attempt allow gradual feedback with closer proximity
 
 #include <Servo.h>
 
