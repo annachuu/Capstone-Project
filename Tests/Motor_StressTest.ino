@@ -6,7 +6,7 @@
 Servo myServo;
 
 int startPos = 0;      // starting position
-int stressAngle = 90;  // how far the servo moves
+int stressAngle = 70;  // angle determines in version 2
 
 void setup() 
 {
@@ -16,7 +16,7 @@ void setup()
 
 void loop() 
 {
-  myServo.write(stressAngle);  // move to 80 degrees
+  myServo.write(stressAngle);  // move to 70 degrees
   delay(1000);                 // wait 1 second
 
   myServo.write(startPos);     // move back to 0 degrees
